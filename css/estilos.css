@@ -2,18 +2,27 @@ html {
   font-size: 15px; }
 
 .bienvenidos {
-  background: url("../images/mobile.png");
+  background: url("../images/mobile.svg");
   background-size: cover;
   height: 100vh; }
 
 .encabezado {
   background: #e0fbf99c; }
 
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 4rem; }
+
 .logo {
-  height: 7rem; }
+  height: 3rem;
+  margin-top: -0.1rem; }
 
 .navbar-toggler {
-  font-size: 1.6rem;
+  font-size: 0.9rem;
   border: 1px solid black;
   border-color: black; }
 
@@ -25,6 +34,9 @@ html {
   text-align: center;
   color: black;
   font-size: 2rem; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 251, 251, 0.5); }
 
 .nav-link.active {
   color: #0c0c0c;
