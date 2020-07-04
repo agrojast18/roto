@@ -1,15 +1,33 @@
-/*Estilos bloque bienvenidos*/
-.bienvenidos{
-	background: url("../images/mobile.png");
-	background-size: cover;
-	height: 100vh;
-}
-.navbar-nav {
-    text-align: center;
-}
+html {
+  font-size: 15px; }
 
-body {
-  
- }
+.bienvenidos {
+  background: url("../images/mobile.png");
+  background-size: cover;
+  height: 100vh; }
+
+.encabezado {
+  background: #e0fbf99c; }
+
+.logo {
+  height: 7rem; }
+
+.navbar-toggler {
+  font-size: 1.6rem;
+  border: 1px solid black;
+  border-color: black; }
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: black; }
+
+.nav-link {
+  text-align: center;
+  color: black;
+  font-size: 2rem; }
+
+.nav-link.active {
+  color: #0c0c0c;
+  background: #15131382; }
 
 /*# sourceMappingURL=estilos.css.map */

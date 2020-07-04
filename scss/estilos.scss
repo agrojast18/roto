@@ -1,3 +1,38 @@
-body{
-	display: flex;
+html{
+	font-size: 15px;
+}
+
+.bienvenidos{
+	background: url("../images/mobile.png");
+	background-size: cover;
+	height: 100vh;
+}
+
+.encabezado {
+    background: #e0fbf99c;;
+}
+
+.logo{
+	height: 7rem;
+}
+
+.navbar-toggler {
+    font-size: 1.6rem;
+    border: 1px solid black;
+   	border-color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgb(0, 0, 0);
+}
+.nav-link{
+	text-align:center;
+	color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+.nav-link.active {
+    color: rgb(12, 12, 12);
+    background: #15131382;
 }
