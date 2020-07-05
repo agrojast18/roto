@@ -1,13 +1,23 @@
+@charset "UTF-8";
+/*General*/
 html {
-  font-size: 15px; }
+  font-size: 15px;
+  /*tamaño fuente html*/ }
 
+body {
+  font-family: 'Quicksand', sans-serif; }
+
+/*Inicio*/
 .bienvenidos {
   background: url("../images/mobile.svg");
+  /*imagen fondo*/
   background-size: cover;
   height: 100vh; }
 
+/*Header*/
 .encabezado {
-  background: #e0fbf99c; }
+  background: #e0fbf99c;
+  /*encabezado principal*/ }
 
 .container {
   width: 100%;
@@ -17,29 +27,57 @@ html {
   margin-left: auto;
   height: 4rem; }
 
+/*Logo Giro*/
 .logo {
   height: 3rem;
   margin-top: -0.1rem; }
 
+/*icono barra de navegación*/
 .navbar-toggler {
   font-size: 0.9rem;
   border: 1px solid black;
   border-color: black; }
 
+/*color barra de boton nav-toggler*/
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
   border-color: black; }
 
-.nav-link {
+/*barra de navegacion*/
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 251, 251, 0.5);
   text-align: center;
   color: black;
-  font-size: 2rem; }
+  font-size: 1rem;
+  margin: .2rem 0; }
 
-.navbar-light .navbar-nav .nav-link {
-  color: rgba(255, 251, 251, 0.5); }
+.navbar-collapse {
+  background-color: #9cd4d6; }
 
-.nav-link.active {
-  color: #0c0c0c;
-  background: #15131382; }
+/*color de fondo barra nave inicio active*/
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active:hover {
+  color: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.19); }
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  background: rgba(0, 0, 0, 0.19); }
+
+.display-4 {
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: justify; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #309099;
+  border-color: #309099;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease; }
+
+.btn-primary:hover {
+  color: #fcf8f8;
+  background-color: #32959e99;
+  border-color: #32959e; }
 
 /*# sourceMappingURL=estilos.css.map */
