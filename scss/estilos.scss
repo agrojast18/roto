@@ -70,21 +70,39 @@ body{
     background: rgba(0, 0, 0, 0.19);
 }
 
+/*Imagen sobre mi*/
+.col-8 { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Texto sobre mi*/
 .display-4 {
     font-size: 1.1rem;
     font-weight: 300;
     line-height: 1.2;
-    text-align: justify;
 }
 
+/*Boton descarga HV*/
 .btn-primary {
     color: #fff;
     background-color: #309099;
     border-color: #309099;
     transition: all .5s ease;
+
 }
 .btn-primary:hover {
     color: #fcf8f8;
     background-color: #32959e99;
     border-color: #32959e;
+
+}
+
+/*centrar boton*/
+.col-5{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
