@@ -40,8 +40,7 @@ body {
   color: rgba(255, 251, 251, 0.5);
   text-align: center;
   color: black;
-  font-size: 1rem;
-  margin: .2rem 0; }
+  font-size: 1rem; }
 
 .navbar-collapse {
   background-color: #9cd4d6; }
@@ -55,11 +54,6 @@ body {
   background: rgba(0, 0, 0, 0.19); }
 
 /*Imagen sobre mi*/
-.col-8 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
 /*Texto sobre mi*/
 .display-4 {
   font-size: 1.1rem;
@@ -79,13 +73,6 @@ body {
   background-color: #32959e99;
   border-color: #32959e; }
 
-/*centrar boton*/
-.col-5 {
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
 /*Habilidades*/
 .habilidades {
   background: #c1dbc6; }
@@ -93,5 +80,10 @@ body {
 .progress-bar {
   /*Color de la barra de avance*/
   background-color: #309098; }
+
+/*Servicios*/
+.servi {
+  color: #5a9d9e;
+  font-size: 6rem; }
 
 /*# sourceMappingURL=estilos.css.map */

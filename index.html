@@ -19,96 +19,135 @@
   </head>
   <body>
 
+    <!--Seccion de el Home-->
     <section class="bienvenidos">
         <header class="encabezado">
-            <!--<p>Hola mundo <i class="fas fa-ad"></i></p>-->
+                <nav class="navbar navbar-light navbar fixed-top"> 
+                      <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo.svg">
+                      </a>  
+                      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
 
-                <nav class="navbar navbar-expand-lg navbar-light navbar fixed-top">
-                  <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo.svg">
-                  </a>  
-                  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-
-                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav  mt-2 mt-md-0">
-                       <a class="nav-link active" href="#">Inicio</a> 
-                       <a class="nav-link" href="#sobre-mi">Sobre mi</a>
-                       <a class="nav-link" href="#habilidades">Habilidades</a>
-                       <a class="nav-link" href="#">Servicios</a>
-                       <a class="nav-link" href="#">Contacto</a>
-                    </ul>
-                  </div>
+                      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav  mt-2 mt-md-0">
+                           <a class="nav-link active" href="#">Inicio</a> 
+                           <a class="nav-link" href="#sobre-mi">Sobre mi</a>
+                           <a class="nav-link" href="#habilidades">Habilidades</a>
+                           <a class="nav-link" href="#servicio">Servicios</a>
+                           <a class="nav-link" href="#contacto">Contacto</a>
+                        </ul>
+                      </div>
                 </nav>                
         </header>
     </section>
 
-   
-
-    <main class="sobre-mi" id="sobre-mi">
-        
-            <img src="images/sobremi.svg" width="181" class="imgsobremi img-fluid col-md-6 mt-5">
-            <h2 class="h1 font-weight-bolder text-center mt-5 col-md-6">
-                Hola, Soy Angela
-            </h2>
-            <h1 class="container display-4 text-justify mt-5 px-3 ">Soy Administradora de Sistemas Informáticos graduada de la Universidad Nacional de Colombia, con conocimientos en HTML5, CSS3, JAVASCRIPT, AJAX, PHP, JQUERY, MYSQL, BOOTSTRAP y RESPONSIVE DESING, con gran interes en la calidad de software y computación gráfica, organizada y analítica, constante al trabajar por objetivos, proactiva, poseo la habilidad de liderazgo, relaciones interpersonales y trabajo en equipo
-            </h1>
-            <a  class="btn btn-primary mt-5 mb-5 col-5">Descargar HV</a>
-        
+    <!--Seccion Sobre Mi-->
+    <main class="sobre-mi py-5 text-center" id="sobre-mi"> <!--Text-center centra todo el contenido, incluyendo imagenes-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/sobremi.svg" width="300" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="h1 font-weight-bolder mt-5 ">
+                        Hola, Soy Angela
+                    </h2>
+                    <h1 class="display-4 text-justify mt-5">Soy Administradora de Sistemas Informáticos graduada de la Universidad Nacional de Colombia, con conocimientos en HTML5, CSS3, JAVASCRIPT, AJAX, PHP, JQUERY, MYSQL, BOOTSTRAP y RESPONSIVE DESING, con gran interes en la calidad de software y computación gráfica, organizada y analítica, constante al trabajar por objetivos, proactiva, poseo la habilidad de liderazgo, relaciones interpersonales y trabajo en equipo
+                    </h1>
+                    <a  class="btn btn-primary mt-4">Descargar HV</a>
+                </div>
+            </div>
+        </div>
     </main>
 
-
-    <div class="habilidades" id="habilidades">
-       <h2 class="h1 font-weight-bolder text-center pt-5">Habilidades
+    <!--Seccion Habilidades-->
+    <section class="habilidades" id="habilidades">
+       <h2 class="h1 font-weight-bolder text-center pt-5">HABILIDADES
        </h2>
-       <h5 class="container">Habilidades Técnicas</h5>
-        <div class="barras container pb-5">
-         <p>Html</p>  
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-                </div>
-            </div>
-         <p>Css</p>  
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                </div>
-            </div>
-         <p>Bootstrap</p>  
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-                </div>
-            </div>
-         <p>Ilustrator</p>  
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                </div>
-            </div>
+       <div class="container">
+            <div class="row">
+                <div class="col-md-6 pt-4">
+                    <h5 class="py-2">Habilidades Técnicas</h5>
+                        <p>Html</p>  
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%
+                            </div>
+                        </div>
+                        <p>Css</p>  
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%
+                            </div>
+                        </div>
+                        <p>Bootstrap</p>  
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%
+                            </div>
+                        </div>
+                        <p>Ilustrator</p>  
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%
+                            </div>
+                        </div>
+                </div>    
+           
+                    <div class="col-md-6 pt-4 pb-5 mb-1">
+                        <h5 class="py-2">Habilidades Profesionales</h5>
+                        <p>Trabajo en Equipo</p>  
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%
+                                </div>
+                            </div>
+                        <p>Flexibilidad</p>  
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%
+                                </div>
+                            </div>
+                        <p>Liderazgo</p>  
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%
+                                </div>
+                            </div>
+                        <p>Responsabilidad</p>  
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">90%
+                                </div>
+                            </div>
+                    </div>   
+            </div>      
         </div>
+    </section>
 
-        <h5 class="container">Habilidades Profesionales</h5>
-        <div class="barras container pb-5">
-         <p>Trabajo en Equipo</p>  
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+    <section id="servicio" class="text-center pb-2">
+        <h1 class="py-5 font-weight-bolder">SERVICIOS</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 display-4 ">               
+                        <h3>Maquetación Web</h3>
+                        <i class="servi fas fa-pen-nib mb-2"></i>
+                        <p>Le daremos estructura a tus ideas para dar a conocer la información de la manera más atractiva. </p>          
                 </div>
-            </div>
-         <p>Flexibilidad</p>  
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                <div class="col-md-4 display-4 mb-2">
+                    <a href="">  
+                        <h3>Responsive design</h3> 
+                        <img src="images/rd.svg" width="100" class="servi py-2"> 
+                        <p>Tu sitio web adaptable a todos los dispositivos disponibles en el mercado</p>   
+                    </a>       
                 </div>
-            </div>
-         <p>Liderazgo</p>  
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-                </div>
-            </div>
-         <p>Responsabilidad</p>  
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                </div>
+                <div class="col-md-4 display-4">
+                    <a href="">
+                        <h3>Diseño Personalizado</h3>
+                        <i class="servi fas fa-pencil-alt mb-2"></i>   
+                        <p>Hasta el ultimo pixel estará hecho a tu medida y gusto</p>      
+                    </a>           
+                </div> 
             </div>
         </div>
-    </div>
+    </section>
+
+    <section id="contacto">
+        <h1 class="text-center">Contacto</h1>
+    </section>
 
    
 
