@@ -73,6 +73,23 @@ body{
     line-height: 1.2;
 }
 
+.intereses img{
+	display: block;
+	overflow: hidden;
+	margin-bottom: 1.5rem;
+}
+
+.intereses img{
+	transition: all .3 ease;
+}
+
+.intereses img:hover {
+	transform: scale(.5);	
+}
+
+
+
+
 /*Boton descarga HV*/
 .btn-primary {
     color: #fff;
@@ -101,7 +118,7 @@ body{
 /*Servicios*/
 
 .servi {
-    color: #5a9d9e;
+    color: #fdaedb;
     font-size: 6rem;
 }
 
