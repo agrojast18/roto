@@ -63,18 +63,15 @@ body {
   line-height: 1.2; }
 
 /*intereses*/
-.intereses img {
-  display: block;
-  overflow: hidden;
-  margin-bottom: 1.5rem; }
-
-.intereses img {
-  -webkit-transition: all .3 ease;
-  transition: all .3 ease; }
+img {
+  margin: 0.5rem; }
 
 .intereses img:hover {
-  -webkit-transform: scale(0.5);
-          transform: scale(0.5); }
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.intereses img {
+  overflow: hidden; }
 
 /*Boton descarga HV*/
 .btn-primary {
@@ -108,6 +105,12 @@ footer {
   background: black; }
 
 /*-------MEDIA QUERIES----------*/
+@media (min-width: 667px) {
+  .bienvenidos {
+    background: url("../images/fondo-pc1.jpg");
+    /*imagen fondo*/
+    background-size: cover;
+    height: 100vh; } }
 @media (min-width: 768px) {
   html {
     font-size: 18px;
@@ -119,9 +122,7 @@ footer {
   .bienvenidos {
     background: url("../images/fondo-pc.jpg");
     /*imagen fondo*/
-    background-size: cover; }
-
-  .mt-5, .my-5 {
-    margin-top: 0.1rem !important; } }
+    background-size: cover;
+    height: 100vh; } }
 
 /*# sourceMappingURL=estilos.css.map */

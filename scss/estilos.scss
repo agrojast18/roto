@@ -76,20 +76,14 @@ body{
 }
 
 /*intereses*/
-
-.intereses img{
-	display: block;
-	overflow: hidden;
-	margin-bottom: 1.5rem;
+	
+img {
+    margin: 0.5rem;
 }
 
-.intereses img{
-	transition: all .3 ease;
-}
+.intereses img:hover {-webkit-transform:scale(1.1);transform:scale(1.1);}
+.intereses img {overflow:hidden;}
 
-.intereses img:hover {
-	transform: scale(.5);	
-}
 
 /*Boton descarga HV*/
 .btn-primary {
@@ -133,6 +127,16 @@ footer{
 
 /*-------MEDIA QUERIES----------*/
 
+@media (min-width: 667px){
+
+	.bienvenidos{
+	background: url("../images/fondo-pc1.jpg"); /*imagen fondo*/
+	background-size: cover;
+	height: 100vh;
+	
+	}
+}
+
 @media (min-width: 768px){
 
 	html{
@@ -145,10 +149,9 @@ footer{
 	.bienvenidos{
 	background: url("../images/fondo-pc.jpg"); /*imagen fondo*/
 	background-size: cover;
+	height: 100vh;
 	
 	}
 
-	.mt-5, .my-5 {
-    margin-top: 0.1rem !important;
-	}
+	
 }
