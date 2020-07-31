@@ -130,6 +130,14 @@ footer {
     height: 100vh; }
 
   .intereses img {
-    width: 150px; } }
+    width: 150px; }
+
+  .contacto iframe {
+    width: 600px;
+    height: 300px; }
+
+  .contacto p {
+    text-align: left;
+    margin-left: 4rem; } }
 
 /*# sourceMappingURL=estilos.css.map */
