@@ -65,7 +65,7 @@ body{
 /*Imagen sobre mi*/
 
 .mt-5, .my-5 {
-    margin-top: 3rem !important;
+    margin-top: 1rem !important;
 }
 
 /*Texto sobre mi*/
@@ -117,6 +117,14 @@ img {
     font-size: 6rem;
 }
 
+/*CONTACTO*/
+
+.contacto{
+	background: #fed45f;
+}
+
+
+
 /*Pie de Pagina*/
 
 footer{
@@ -152,6 +160,10 @@ footer{
 	height: 100vh;
 	
 	}
+
+	.intereses img{
+		width: 150px;
+	}	
 
 	
 }
