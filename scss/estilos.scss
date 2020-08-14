@@ -75,12 +75,13 @@ body{
     line-height: 1.2;
 }
 
-/*intereses*/
+/* Mis Intereses*/
 	
 img {
     margin: 0.5rem;
 }
 
+/*interaccion imagenes*/
 .intereses img:hover {-webkit-transform:scale(1.1);transform:scale(1.1);}
 .intereses img {overflow:hidden;}
 
@@ -123,8 +124,6 @@ img {
 	background: #fed45f;
 }
 
-
-
 /*Pie de Pagina*/
 
 footer{
@@ -155,9 +154,9 @@ footer{
 	}
 
 	.bienvenidos{
-	background: url("../images/fondo-pc.jpg"); /*imagen fondo*/
-	background-size: cover;
-	height: 100vh;
+		background: url("../images/fondo-pc.jpg"); /*imagen fondo*/
+		background-size: cover;
+		height: 100vh;
 	
 	}
 
