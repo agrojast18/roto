@@ -26,25 +26,41 @@ body {
   /*imagen fondo*/
   background-size: cover;
   height: 100vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 667px) {
 
   .bienvenidos {
-    background: url("../images/668px.svg"); /*arreglar*/
+    background: url("../images/fondopc1.jpg"); /*arreglar*/
     /*imagen fondo*/
     background-size: cover;
     height: 100vh;
+    background-attachment: fixed;
   }
 }
 
 @media (min-width: 768px) {
   .bienvenidos {
+    background: url("../images/fondopc1.jpg"); /*arreglar*/
+    /*imagen fondo*/
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh; }
+}
+
+@media (min-width: 1200px) {
+  .bienvenidos {
     background: url("../images/fondo-pc.jpg"); /*arreglar*/
     /*imagen fondo*/
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh; }
 }
+
+
 
 /*//////////// Header /////////////////*/
 .encabezado {
@@ -77,6 +93,18 @@ body {
   border-radius: 0.4rem;
   -webkit-transition: all .3s ease;
   transition: all .3s ease; }
+
+@media (min-width: 768px) {
+    .navbar-light .navbar-nav .nav-link{
+      font-size: 1rem;
+    }
+  }  
+
+@media (min-width: 1100px) {
+    .navbar-light .navbar-nav .nav-link{
+      font-size: 1.5rem;
+    }
+  }   
 
 /*color de fondo barra nave inicio active cuando se da click*/
 .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
@@ -113,7 +141,20 @@ body {
 
 /*///////////////////// SOBRE MI ////////////////*/
 
+.sobre-mi{
+  background-attachment: fixed;
+}
+@media (min-width: 667px) {
+  .sobre-mi{
+    background-attachment: fixed;  
+  }
+}
 
+@media (min-width: 768px) {
+  .sobre-mi{
+    background-attachment: fixed;  
+  }
+}
 
 /*Imagen sobre mi*/
 .mt-5, .my-5 {
@@ -210,7 +251,30 @@ img {
   background: #fed45f; /*fondo*/
 }
 
+
 @media (min-width: 768px) {
+
+   .contacto{
+    padding: 5rem 0;
+  } 
+
+  .mapa{
+    margin-top: 4rem;
+  }
+
+  .contacto iframe {
+    width: 400px;
+    height: 343px; }
+
+  .contacto p {
+    text-align: left;
+    margin-left: 4rem; 
+    font-size: 1rem;
+  }
+  
+}
+
+@media (min-width: 1200px) {
 
    .contacto{
     padding: 5rem 0;

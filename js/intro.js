@@ -223,3 +223,13 @@ var zoom = function(){
 	formulario.addEventListener("submit", validar); //Aqui se envia la funcion validar al boton
 
 //Aqui es escuchado el boton para llamar todo!!!!!!!!
+
+
+.thumb{
+  width: 200px;
+  transition: 300ms all ease;
+}
+
+.grande{
+  width: 400px;
+}
