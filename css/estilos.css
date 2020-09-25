@@ -22,7 +22,7 @@ body {
 
 /*/////////// Inicio HOME //////////////////*/
 .bienvenidos {
-  background: url("../images/mobile3.svg");
+  background: url("../images/mobilemedia.svg");
   /*imagen fondo*/
   background-size: cover;
   height: 100vh; 
@@ -34,29 +34,33 @@ body {
 @media (min-width: 667px) {
 
   .bienvenidos {
-    background: url("../images/fondopc1.jpg"); /*arreglar*/
+    background: url("../images/668media.svg"); /*arreglar*/
     /*imagen fondo*/
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
+    background-position: center;
   }
 }
 
 @media (min-width: 768px) {
   .bienvenidos {
-    background: url("../images/fondopc1.jpg"); /*arreglar*/
+    background: url("../images/media768.svg"); /*arreglar*/
     /*imagen fondo*/
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     height: 100vh; }
 }
 
 @media (min-width: 1200px) {
   .bienvenidos {
-    background: url("../images/fondo-pc.jpg"); /*arreglar*/
+    background: url("../images/1200media.svg"); /*arreglar*/
     /*imagen fondo*/
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh; }
 }
 
