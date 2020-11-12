@@ -7,11 +7,9 @@ body{
 	font-family: 'Quicksand', sans-serif;
 }
 
-
-
 /*Inicio*/
 .bienvenidos{
-	background: url("../images/mobile.svg"); /*imagen fondo*/
+	background: url("../images/mobile.jpg"); /*imagen fondo*/
 	background-size: cover;
 	height: 100vh;
 }
@@ -78,7 +76,7 @@ body{
 /* Mis Intereses*/
 	
 img {
-    margin: 0.5rem;
+	margin: 0.5rem;
 }
 
 /*interaccion imagenes*/
@@ -89,13 +87,13 @@ img {
 /*Boton descarga HV*/
 .btn-primary {
     color: #fff;
-    background-color: #309099;
+    background-color: #19858f;
     border-color: #309099;
-    transition: all .5s ease;
-
+	transition: all .5s ease;
+	box-shadow: 2px 2px 5px #000000;
 }
 .btn-primary:hover {
-    color: #fcf8f8;
+    color: #000000;
     background-color: #32959e99;
     border-color: #32959e;
 
@@ -121,7 +119,7 @@ img {
 /*CONTACTO*/
 
 .contacto{
-	background: #fed45f;
+	background: #cfecd5;
 }
 
 /*Pie de Pagina*/
@@ -173,5 +171,9 @@ footer{
 	.contacto p{
 		text-align: left;
 		margin-left: 4rem;
+	}
+
+	.networks img{
+		width: 40px;
 	}
 }
